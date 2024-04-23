@@ -99,12 +99,12 @@ footer {
   min-width: 160px;
   box-sizing: border-box;
   z-index: 1;
-  padding: 0; /* 패딩 제거 */
+  padding: 0; 
 }
 
 .dropdown-content a {
   color: black;
-  padding: 10px 0; /* 좌우 패딩을 0으로 설정 */
+  padding: 10px 0; 
   text-decoration: none;
   display: block;
   text-align: left;
@@ -161,7 +161,7 @@ footer {
   display: inline-block;
 }
 
-/* Dropdown button */
+
 .dropbtn {
   background-color: transparent;
   color: black;
@@ -170,7 +170,7 @@ footer {
   cursor: pointer;
 }
 
-/* Dropdown content (hidden by default) */
+
 .dropdown-content {
   display: none;
   position: absolute;
