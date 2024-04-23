@@ -76,9 +76,18 @@ p {
   margin-bottom: 30px;
 }
 
+#tit a {
+  text-decoration: none;
+  color:inherit;
+}
+
+#tit a:hover {
+  color: #5e5d5d;
+}
+
 .web {
   width: 75%;
-  height: 550px;
+  height: 950px;
   margin-top: 60px;
   display: block;
   margin-left: auto;
