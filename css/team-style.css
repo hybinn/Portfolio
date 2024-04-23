@@ -221,31 +221,44 @@ footer {
   clear: both;
 }
 
-/* 미디어 쿼리 추가 */
-@media (max-width: 768px) {
-  nav.navbar {
-    text-align: center;
-  }
-  nav.navbar .container {
-    flex-direction: column;
-  }
-  nav.navbar .container .nav {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  nav.navbar .container .nav li {
-    margin-bottom: 0.5rem;
-  }
-  section#tit {
-    text-align: center;
-  }
-  section#tit .img-box {
-    margin: 1rem auto;
-  }
-  section#su,
-  div.prod,
-  section#peo .card {
-    margin-left: auto;
-    margin-right: auto;
-  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+  background-color: transparent;
+  color: black;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
