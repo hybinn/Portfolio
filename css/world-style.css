@@ -79,12 +79,12 @@ ul {
   min-width: 160px;
   box-sizing: border-box;
   z-index: 1;
-  padding: 0; /* 패딩 제거 */
+  padding: 0;
 }
 
 .dropdown-menu-content a {
   color: black;
-  padding: 10px 0; /* 좌우 패딩을 0으로 설정 */
+  padding: 10px 0;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -147,7 +147,7 @@ footer {
   display: inline-block;
 }
 
-/* Dropdown button */
+
 .dropbtn {
   background-color: transparent;
   color: black;
@@ -156,7 +156,7 @@ footer {
   cursor: pointer;
 }
 
-/* Dropdown content (hidden by default) */
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -174,17 +174,17 @@ footer {
   display: block;
 }
 
-/* Change color of dropdown links on hover */
+
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* 모바일 및 태블릿 화면을 위한 기본 스타일 */
+
 body,
 html {
   margin: 0;
@@ -192,15 +192,14 @@ html {
   font-family: 'Arial', sans-serif;
 }
 
-/* 모바일 기기를 위한 추가 스타일 */
-/* 모든 화면 크기에서 드롭다운 메뉴가 보이도록 설정 */
+
 .dropdown {
   display: block;
   top: 0;
   right: 0;
 }
 
-/* 데스크탑이 아닐 때 네비게이션 바 숨기기 */
+
 @media only screen and (max-width: 1024px) {
   .navbar,
   .nav {
@@ -208,9 +207,8 @@ html {
   }
 }
 
-/* 모바일 기기를 위한 추가 스타일 */
+
 @media only screen and (max-width: 768px) {
-  /* 화면이 작을 때 스타일 조정 */
   .container,
   .img-box,
   .card,
@@ -229,5 +227,5 @@ html {
   .card {
     margin-bottom: 20px;
   }
-  /* 모바일 반응형을 위한 기타 스타일 */
+
 }
