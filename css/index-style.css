@@ -58,12 +58,6 @@ ul {
   color: #ccc;
 }
 
-#back {
-  background-image: url('../img/API.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
 #showcase {
   display: flex;
   justify-content: space-between;
@@ -273,6 +267,6 @@ footer {
     display: none;
   }
   #showcase h1 {
-    font-size: 3rem !important; /* Adjust the font size as needed */
+    font-size: 3rem !important; 
   }
 }
