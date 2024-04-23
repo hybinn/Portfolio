@@ -273,6 +273,7 @@ footer {
   }
   #su {
     width: 90%;
+    text-align:left;
   }
   .card {
     flex: 1 0 100%; /* 한 줄에 하나씩 배치되도록 변경 */
