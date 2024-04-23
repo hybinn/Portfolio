@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>PORTFOLIO</title>
-    <link rel="stylesheet" href="team-style.css"/>
+    <link rel="stylesheet" href="../css/team-style.css"/>
   </head>
   <body>
     <nav class="navbar">
@@ -17,11 +17,17 @@
           <li>
             <a href="world.html">SECON2024</a>
           </li>
-          <li>
-            <a href="team.html">Team Project</a>
+          <li class="dropdown">
+            <a class="text-white" href="team.html"
+              >Project <i class="fa fa-caret-down"></i
+            ></a>
+            <ul class="dropdown-content">
+              <li><a href="team.html">Team</a></li>
+              <li><a href="project.html">My</a></li>
+            </ul>
           </li>
           <li>
-            <a href="project.html">Project</a>
+            <a class="text-white" href="login.html">Login</a>
           </li>
         </ul>
       </div>
@@ -29,12 +35,78 @@
     <hr>
         </div>
       </div>
-    </section>
     </nav>
 
-    <section id="Team">
-      <h2>Bow Data</h2>
+    <section id="tit">
+      <h1>Bow Data</h1>
       <p>강아지의 종류 및 특징, 관련 상식, 최신 뉴스, 강아지 용품 추천 등<br>강아지와 관련된 유용한 정보들을 제공합니다.</p>
 
+      <div class="img-box">
+        <img src="../img/bowdata.jpg" class="bowD">
+      </div>
+    </section>
+
+    <section id="su">
+      <h2>프로젝트 개요</h2>
+      <p>강아지의 종류 및 특징, 관련 상식, 최신 뉴스, 강아지 용품 추천 등 강아지와 관련된 유용한 정보들을 제공하여 사람들이 강아지를 한 생명체로 존중하며 책임감 있게 행동할 수 있는 세상을 만드는데 도움이 되고자 이 프로젝트를 진행하게 되었습니다.</p>
+
+      <h2>프로젝트 진행 과정</h2>
+      <p>카카오톡으로 다양한 의견 제시를 통해 프로젝트 방향성을 결정하였으며, Visual Studio Code에서 Live Share를 이용하여 각 팀원들의 진행 상황 및 피드백을 실시간으로 공유하며 진행하였습니다.</p>
+    </section>
+
+    <div class="prod">
+      <h2>Team "Bow Data"</h2>
+    </div>
+
+
+    <section id="peo">
+      <div class="card">
+        <div class="card-body">
+            <p class="card-text">
+                이름 : 김현빈<br/>
+                학번 : 92250405<br/>
+                역할 : Data, News 페이지 제작 및 자료조사<br/>
+                Homepage : <a href="">PortFolio</a><a href="">Team</a><a href="">GitHub</a><br/>
+            </p>
+          </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+            <p class="card-text">
+                이름 : 박윤지<br/>
+                학번 : 92313336<br/>
+                역할 : Pedia 페이지 제작 및 자료조사<br/>
+                Homepage : <a href="">PortFolio</a><a href="">Team</a><a href="">GitHub</a><br/>
+            </p>
+          </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+            <p class="card-text">
+                이름 : 오소망<br/>
+                학번 : 92317234<br/>
+                역할 : Home, Team 페이지 제작, 홈페이지 로고 제작<br/>
+                Homepage : <a href="">PortFolio</a><a href="">Team</a><a href="">GitHub</a><br/>
+            </p>
+          </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+            <p class="card-text">
+                이름 : 윤도현<br/>
+                학번 : 92313477<br/>
+                역할 : Supplies 페이지 제작 및 자료조사, 발표<br/>
+                Homepage : <a href="">PortFolio</a><a href="">Team</a><a href="">GitHub</a><br/>
+            </p>
+          </div>
+      </div>
+
+    </section>
+    <footer>
+      <p>Copyright &copy; 2024, 중부대학교 정보보호학과 김현빈<br /></p>
+    </footer>
   </body>
 </html>

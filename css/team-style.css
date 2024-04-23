@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  font-family: 'NanumSquare', sans-serif;
+}
+
+.container .logo {
+  font-size: 20px;
+  font-weight: 500px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container .nav {
+  display: flex;
+  margin-right: 50px;
+}
+
+.navbar {
+  background-color: white;
+  background-size: cover;
+  color: black;
+  height: 80px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul li {
+  margin-left: 40px;
+  padding-right: 25px;
+}
+
+.navbar .nav li a {
+  font-size: 25px;
+}
+
+.navbar .logo {
+  padding: 50px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+
+.button-container button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #f2f2f2;
+}
+
+.button-container button:hover {
+  background-color: #dfdfdf;
+}
+
+.tab-link {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+#tit h1,
+p {
+  text-align: center;
+}
+
+#tit h1 {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+#tit p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.tab-content h3 {
+  font-size: 27px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.bowD {
+  width: 65%;
+  height: 400px;
+  margin-top: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#su {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#su h2 {
+  margin-top: 50px;
+}
+
+#su p {
+  text-align: left;
+  margin-top: 15px;
+}
+
+#peo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.card {
+  flex: 1 0 46%; /* flex-grow, flex-shrink, flex-basis */
+  max-width: 46%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: auto;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 2px 16px;
+}
+
+.card-text {
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.card-text a {
+  margin: 5px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-text a:hover {
+  color: #818181;
+}
+
+.prod h2 {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-sizing: border-box;
+  z-index: 1;
+  padding: 0; /* 패딩 제거 */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 0; /* 좌우 패딩을 0으로 설정 */
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  text-indent: 10px;
+}
+
+.dropdown-content a:hover {
+  background-color: gray;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content li {
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  clear: both;
+}
+
+/* 미디어 쿼리 추가 */
+@media (max-width: 768px) {
+  nav.navbar {
+    text-align: center;
+  }
+  nav.navbar .container {
+    flex-direction: column;
+  }
+  nav.navbar .container .nav {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  nav.navbar .container .nav li {
+    margin-bottom: 0.5rem;
+  }
+  section#tit {
+    text-align: center;
+  }
+  section#tit .img-box {
+    margin: 1rem auto;
+  }
+  section#su,
+  div.prod,
+  section#peo .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  font-family: 'NanumSquare', sans-serif;
+}
+
+.container .logo {
+  font-size: 20px;
+  font-weight: 500px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container .nav {
+  display: flex;
+  margin-right: 50px;
+}
+
+.navbar {
+  background-color: white;
+  background-size: cover;
+  color: black;
+  height: 80px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul li {
+  margin-left: 40px;
+  padding-right: 25px;
+}
+
+.navbar .nav li a {
+  font-size: 25px;
+}
+
+.navbar .logo {
+  padding: 50px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+
+#showcase h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#showcase .container {
+  margin-top: 50px;
+}
+
+#kint img {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-sizing: border-box;
+  z-index: 1;
+  padding: 0; /* 패딩 제거 */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 0; /* 좌우 패딩을 0으로 설정 */
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  text-indent: 10px;
+}
+
+.dropdown-content a:hover {
+  background-color: gray;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content li {
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  clear: both;
+}
+
+/* 미디어 쿼리 추가 */
+@media (max-width: 768px) {
+  nav.navbar {
+    text-align: center;
+  }
+  nav.navbar .container {
+    flex-direction: column;
+  }
+  nav.navbar .container .nav {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  nav.navbar .container .nav li {
+    margin-bottom: 0.5rem;
+  }
+  section#showcase h1 {
+    text-align: center;
+  }
+  section#kint img {
+    margin-top: 45px;
+    width: 100%;
+    height: auto;
+  }
+  section#kint p {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
