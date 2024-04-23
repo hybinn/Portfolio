@@ -219,3 +219,17 @@ footer {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+  .web {
+    height: 320px;
+    width: 90%;
+  }
+  #tit p {
+    width: 100%;
+    text-align: center;
+  }
+}

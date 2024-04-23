@@ -268,24 +268,11 @@ footer {
   }
 }
 
-@media (max-width: 767px) {
-  .nav {
-    display: none; /* PC에서는 숨김 */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    display: none;
   }
-  .dropdown {
-    display: block; /* 모바일에서는 드롭다운 메뉴 보임 */
-  }
-}
-/* 드롭다운 메뉴를 가장 상단에 배치 */
-@media (max-width: 767px) {
-  .dropdown {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999; /* 다른 요소 위에 표시 */
-  }
-  #showcase {
-    font-size: 24px !important;
+  #showcase h1 {
+    font-size: 4rem !important; /* Adjust the font size as needed */
   }
 }

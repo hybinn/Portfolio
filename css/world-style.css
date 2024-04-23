@@ -183,3 +183,51 @@ footer {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* 모바일 및 태블릿 화면을 위한 기본 스타일 */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* 모바일 기기를 위한 추가 스타일 */
+/* 모든 화면 크기에서 드롭다운 메뉴가 보이도록 설정 */
+.dropdown {
+  display: block;
+  top: 0;
+  right: 0;
+}
+
+/* 데스크탑이 아닐 때 네비게이션 바 숨기기 */
+@media only screen and (max-width: 1024px) {
+  .navbar,
+  .nav {
+    display: none;
+  }
+}
+
+/* 모바일 기기를 위한 추가 스타일 */
+@media only screen and (max-width: 768px) {
+  /* 화면이 작을 때 스타일 조정 */
+  .container,
+  .img-box,
+  .card,
+  .card-body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  #kint img {
+    max-width: 90%;
+    height: auto;
+  }
+  #kint p {
+    max-width: 90%;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  /* 모바일 반응형을 위한 기타 스타일 */
+}
