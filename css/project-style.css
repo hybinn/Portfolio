@@ -5,7 +5,7 @@
 
 .container .logo {
   font-size: 20px;
-  font-weight: 500px;
+  font-weight: bolder;
 }
 
 ul {
@@ -155,8 +155,6 @@ footer {
     font-size: 0.9rem;
   }
 }
-
-
 
 .dropdown {
   position: relative;
