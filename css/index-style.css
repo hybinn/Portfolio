@@ -181,7 +181,7 @@ footer {
 }
 
 .accordion-button::after {
-  content: '\02796'; /* Unicode character for "plus" sign (+) */
+  content: '\02796';
   font-size: 1.5rem;
   position: absolute;
   right: 0.5rem;
@@ -191,7 +191,7 @@ footer {
 }
 
 .accordion-button.collapsed::after {
-  content: '\02795'; /* Unicode character for "minus" sign (-) */
+  content: '\02795'; 
   transform: translateY(-50%) rotate(-90deg);
 }
 
@@ -206,12 +206,11 @@ footer {
   min-width: 160px;
   box-sizing: border-box;
   z-index: 1;
-  padding: 0; /* 패딩 제거 */
-}
+  padding: 0; 
 
 .dropdown-content a {
   color: black;
-  padding: 10px 0; /* 좌우 패딩을 0으로 설정 */
+  padding: 10px 0; 
   text-decoration: none;
   display: block;
   text-align: left;
