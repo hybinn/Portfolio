@@ -271,9 +271,9 @@ footer {
     height: 250px;
     width: 80%;
   }
-  #su {
+  #su h2, p{
     width: 90%;
-    text-align:left;
+    
   }
   .card {
     flex: 1 0 100%; /* 한 줄에 하나씩 배치되도록 변경 */
