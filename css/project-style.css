@@ -156,27 +156,7 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
-  nav.navbar {
-    text-align: center;
-  }
-  nav.navbar ul.nav {
-    display: inline-block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  nav.navbar ul.nav li {
-    display: inline-block;
-    margin: 0;
-    width: 25%; /* 각 메뉴 항목이 균일하게 4개가 나타나도록 */
-  }
-  nav.navbar ul.nav li a {
-    display: block;
-    padding: 10px;
-    text-align: center;
-  }
-}
+
 
 .dropdown {
   position: relative;
@@ -226,6 +206,10 @@ footer {
   }
   .web {
     height: 320px;
+    width: 90%;
+  }
+
+  .web h1 p {
     width: 90%;
   }
   #tit p {
