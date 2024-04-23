@@ -74,7 +74,6 @@ p {
 #tit p {
   margin-top: 25px;
   margin-bottom: 30px;
-  font-size: 15px;
 }
 
 .web {
@@ -153,7 +152,7 @@ footer {
   }
 
   #tit p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 
