@@ -285,4 +285,7 @@ footer {
     width: 100%;
     z-index: 9999; /* 다른 요소 위에 표시 */
   }
+  #showcase {
+    font-size: 24px !important;
+  }
 }
